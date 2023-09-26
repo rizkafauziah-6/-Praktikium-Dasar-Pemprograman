@@ -1,0 +1,27 @@
+  Import java. until. Scanner;
+class Inputnilai {
+public stattic void main(String[] args) {
+Scanner input = new Scanner(System.in);
+
+// input Nama
+System.out.print(:"Nama: ");
+String nama = input.nextline();
+System.out.print(:"Nama= " + nama);
+
+// input Nim
+System.out.print(:"NIM: ");
+int nim = input.nextline();
+System.out.print(:"Nim= " + nim);
+
+// input Nilai Tugas 
+System.out.print(:"NILAI TUGAS: ");
+double tugas = input.nextline();
+System.out.print(:"NILAI TUGAS= " + tugas);
+
+// input UTS 
+System.out.print(:"uts: ");
+int uts = input.nextline();
+System.out.print(:"Uts= " + uts);
+
+
+
